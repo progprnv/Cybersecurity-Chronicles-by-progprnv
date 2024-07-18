@@ -6,3 +6,7 @@
 4. Crt scan / wayback url
 5. Spyhunt
 6. Paramspider
+7. Sniper
+8. crt.sn
+9. Gitgrabber
+10. 
