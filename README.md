@@ -9,4 +9,6 @@
 7. Sniper
 8. crt.sn
 9. Gitgrabber
-10. 
+10. Retire js
+11. Nuclei
+12. public www web waybackurls machine 
