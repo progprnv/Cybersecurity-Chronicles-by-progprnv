@@ -14,3 +14,6 @@
 12. Nuclei
 13. public www web waybackurls machine
 14. 403 Jump
+15. Nikto
+16. Sqlmap
+17. Retire Js
