@@ -9,6 +9,8 @@
 7. Sniper
 8. crt.sn
 9. Gitgrabber
-10. Retire js
-11. Nuclei
-12. public www web waybackurls machine 
+10. Bypass 403
+11. Retire js
+12. Nuclei
+13. public www web waybackurls machine
+14. 403 Jump
