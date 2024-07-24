@@ -17,3 +17,6 @@
 15. Nikto
 16. Sqlmap
 17. Retire Js
+18. mxlookup
+19. Clickjacker io
+20. ssrf checker
