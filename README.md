@@ -1,4 +1,4 @@
-# recon-methodology
+# bug bounty tools list
 
 1. ShodanX
 2. Spyhunt
