@@ -25,3 +25,8 @@
 23. Reconftw
 24. Fdork
 25. HunterX
+26. ReconRapter
+27. Xspear
+28. Knockpy
+29. KXSS
+30. Rson Framework 
