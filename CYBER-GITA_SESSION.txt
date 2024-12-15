@@ -1,0 +1,160 @@
+
+CYBERGITA SESSION - progprnv
+
+
+CYBERSECURITY IS ALWAYS ON SELF LEARN
+
+
+
+# IMPORTANT 0000
+-------------------------------------
+
+cyber security ---- two divisons
+
+
+JOB POSITIONS: CHOOSE ONE
+
+WE need roadmap : https://unk9vvn.github.io/cybersecurity-roadmaps
+
+
+1) red team >>> BUG BOUNTY HUNTING, PENTESTING JOBS, malware developers,red teamer etc (active direcrtory pentest) ETC..
+
+2) BLUE TEAM >> soc analyst,incident response team,DIGITAL & CYBER FORENSIC,devsecops, mlsecops, aisecops
+slightly more vacancies for blue team
+
+
+3) purple team>>>> red + blue = purple
+
+ROADMAP:
+https://unk9vvn.github.io/cybersecurity-roadmaps
+
+
+-------------------------------------------------
+
+
+# IMPORTANT 0001   ( SELF LEARN )
+
+1) SOME PROGRAMMING LOGIC: HOW DEVELOPERS ARE BUILDING WEB?
+
+                       FRONTEND ND BACKEND
+                  NOT DSA but DEVELOPMENT 
+                ALSO FOR CARRER OPPURTUNITIES
+
+2) most important ----  owasp TOP 10 BUG 
+
+GOAT/BEST WAY TO GAIN HUNTING STRATEGY:
+>>>>>>>>>>>>>>>> *PORTSWIGGER LABS* ---- practice ND solve labs (UNDERRATED)   and best way <<<<<<<<<<<<<<<<
+
+
+3) practice .. Hackthebox,tryhackme,CTFS... 
+
+  
+
+KEEP IN MIND: DEDICATION,PASSION
+
+*DONT COME TO THIS FIELD FOR MONEY, COMPETETION IS GETTING HIGHER, PRACTICE ON KNOWLEGDE
+
+
+I have been in cybersec for 2+ years still on bug bounty it took me 7 months
+it took me 7 months for me get my first bounty..
+
+
+
+FOR JOBS: DO GET HOFs on GOOGLE,NOKIA,YAHOO,yandex,apple,microsft ,hunt on very reputed orgs.. 
+be sure they hold a bug program (not mandatory but it will be an advantage... plus good for ur resume)
+
+
+try get for zero days vulns... " how to get CVE" (just google it) >>> good for job hunting nd resume
+-
+
+<< DO WHAT YOU LOVE >>
+
+
+DONT TRY TO BECOME A FULL TIME BUG HUNTER UNLESS U ARE EXPERINCED OR SUCCESSFUL FOR MORE THAN 2 YEARS...you can try for pentesting,VAPT JOBS
+
+
+
+-------------------------------------------------------------
+
+      1) BASIC RECON    -- FIND YOUR OWN METHOD (UNIQUE)
+           Tip:  use rare search search engine, be good at  OSINT
+
+
+https://nasa.gov
+
+install kali Linux using wsl (youtube)
+
+
+>> You can use finddomain,sublist3r,wayback archieve,security trails,crt, google dork, assetfinder, amass etc etc......
+
+I) SUBFINDER Tool (GitHub)
+
+  Steps:
+       subfinder -d DOMAIN
+       nano subdomain.txt
+       
+  ii) httpx tool (GitHub)
+     cat subdomain.txt | httpx -status-code -title
+
+HTTP CODE FUNDAMENTALS:
+
+6 more codes (self research)
+
+200 - VALID
+301 - REDIRECT/not found url
+403- ACCESS DENIED / auth needed
+404 - not found (subdomain takeover possibility.. 30%)
+
+ 
+STEP 01 of RECON: CONTENT DISCOVERY 
+
+
+MORE TOOLS: WAYBACKURLS, GAU, ALIEN OTX, etc.....
+
+
+katana (GitHub)
+
+katana -u subdomains_alive.txt -d 5 -ps -pss waybackarchive,commoncrawl,alienvault -kf -jc -fx -ef woff,css,png,svg,jpg,woff2,jpeg,gif,svg -o allurls.txt
+
+
+grep (inubuilt)
+
+STEP 03) Scanning
+
+NUCLEI POWERFUL TOOL (GitHub)
+
+OUTPUT: p5 informational (not a security vuln)
+
+TESTING:
+
+BASIC COMMANDS .. THERE ARE MORE ADVANCED COMMANDS TRY OUT THEM TOO... 
+nuclei -u vulnweb.com (very basic cmd.. use chatgpt for getting advnc cmds)
+
+
+---------------------------------------------------------------
+
+
+#IMPORTANT 0002:
+
+IF WE DONT GET ANY VULNS... AGAIN DO RECON USING DIFRNT TOOLS
+
+LOOK FOR SENSITIVE DATA
+
+GOOGLE DORK : GOOGLE HACKIG DATABASE 
+https://www.exploit-db.com/google-hacking-database
+
+
+practice and get knowledge,SEARCH FOR POC VIDEOS, READ MEDIUM REPORTS,
+
+
+>>>>>>>>>>>>>>>>>     RECON IS A LONG PROCESS.. I DO RECON FOR 3 HOURS STRAIGHT FOR EACH PROGRAM
+
+            2) EXPLOITATION
+
+
+
+             3) REPORTING
+
+
+
+
