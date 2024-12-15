@@ -48,7 +48,11 @@ GOAT/BEST WAY TO GAIN HUNTING STRATEGY:
 
 3) practice .. Hackthebox,tryhackme,CTFS... 
 
-  
+*********
+SELF RESEARCH AND PRACTICE PORTSWIGGER LABS.. (ONLY GOOD THING.. FIRST BUILD KNOWLEDGE.. THEORY+ PRACTICAL THEN HUNT ON BUGS) 
+*********
+
+
 
 KEEP IN MIND: DEDICATION,PASSION
 
@@ -76,11 +80,17 @@ DONT TRY TO BECOME A FULL TIME BUG HUNTER UNLESS U ARE EXPERINCED OR SUCCESSFUL 
 
 -------------------------------------------------------------
 
+
+
+*** This is a very basic recon.. don't stop here.. go and search on google to 
+get more steps for recon. recon is like a sea.. this is more than wht u think!!
+
+
       1) BASIC RECON    -- FIND YOUR OWN METHOD (UNIQUE)
            Tip:  use rare search search engine, be good at  OSINT
 
 
-https://nasa.gov
+https://domain.com
 
 install kali Linux using wsl (youtube)
 
@@ -129,6 +139,13 @@ TESTING:
 
 BASIC COMMANDS .. THERE ARE MORE ADVANCED COMMANDS TRY OUT THEM TOO... 
 nuclei -u vulnweb.com (very basic cmd.. use chatgpt for getting advnc cmds)
+
+STEP 04) DON'T STOP HERE.. THIS IS NOT A HACKING. IT'S A BASIC THING WHAT WE CALL RECON
+THAT SHOULDN'T BE AVOIDED ON BUG BOUNTY HUNTING. THIS IS JUST 10% OF HACKING AND BUG BOUNTY. REST 
+90% NEEDS TO BE SELF RESEARCH AND FIND IT AMONG YOURSELF 
+
+SELF RESEARCH AND PRACTICE PORTSWIGGER LABS.. (ONLY GOOD THING.. FIRST BUILD KNOWLEDGE.. THEORY+ PRACTICAL THEN HUNT ON BUGS)
+
 
 
 ---------------------------------------------------------------
