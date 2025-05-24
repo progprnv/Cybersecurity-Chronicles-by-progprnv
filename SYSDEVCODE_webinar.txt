@@ -1,0 +1,132 @@
+
+cd whoami
+
+https://www.linkedin.com/in/pranav-jayan-818b52208
+https://github.com/progprnv  
+
+
+# RECON _ BASICS aka INFO GATHERING   
+
+
+INTRO 
+EX: google
+|----- VERTICAL RECON >> docs.google,meet.google,forms.google, gmail etc
+|----- HORIZONTAL RECON  >> youtube, blogger etc (asn recon, reverse dns, like acquisition partners etc)
+
+
+# VERTICAL RECON BASICS
+
+1) BASIC RECON    -- FIND YOUR OWN METHOD (UNIQUE)
+           Tip:  use rare search search engine, be good at  OSINT for getting unique methodology and knowledge
+
+
+https://domain.com
+
+install kali Linux using wsl (youtube)
+
+
+>> You can use finddomain,sublist3r,wayback archieve,security trails,crt.sh, google dork, assetfinder, amass etc etc......
+
+I) SUBFINDER Tool (GitHub)
+
+  Steps:
+       subfinder -d DOMAIN.COM
+       nano subdomain.txt
+       
+  ii) httpx tool (GitHub)
+     cat subdomain.txt | httpx -status-code -title
+
+HTTP CODE FUNDAMENTALS:
+
+6 more codes (self research)
+
+200 - VALID
+301 - REDIRECT/not found url
+403- ACCESS DENIED / auth needed
+404 - not found (subdomain takeover possibility.. 30%)
+
+ 
+# NEXT IS CONTENT DISCOVERY 
+
+
+katana (GitHub)
+
+katana -u subdomains_alive.txt -d 5 -ps -pss waybackarchive,commoncrawl,alienvault -kf -jc -fx -ef woff,css,png,svg,jpg,woff2,jpeg,gif,svg -o allurls.txt
+
+
+
+
+MORE TOOLS: WAYBACKURLS, GAU, ALIEN OTX, etc.....
+
+
+Extra: use waymore and other tools like bbot
+grep (inubuilt)
+
+
+JS RECON ( VERY Important)  -- hidden urls,endpoints, API KEY LEAKS etc etc
+
+# Extract JavaScript files
+ Extracting JavaScript files...
+
+cat allurls.txt | grep ".js" > js.txt
+
+
+# Phase 3: JS Analysis
+
+cat js.txt | jsecret
+
+
+cat js.txt | spideyx jsscrapy
+
+
+cat js.txt | mantra
+
+
+many more tools like jsluice,linkfinder etc etc
+
+
+STEP 03) Scanning
+
+NUCLEI TOOL (GitHub)
+
+TESTING:
+
+BASIC COMMANDS .. THERE ARE MORE ADVANCED COMMANDS TRY OUT THEM TOO... 
+
+
+nuclei -u vulnweb.com (very basic cmd.. use chatgpt for getting advnc cmds)
+
+One linear = subfinder -d targetdomain.site -silent | httpx | nuclei -t http/exposures/
+cat js.txt | nuclei -t http/exposures
+
+
+
+
+STEP 04) DON'T STOP HERE.. THIS IS NOT EVEN HACKING. IT'S A BASIC THING WHAT WE CALL RECON
+THAT SHOULDN'T BE AVOIDED ON BUG BOUNTY HUNTING. THIS IS JUST 10% OF HACKING AND BUG BOUNTY. REST 
+90% NEEDS TO BE SELF RESEARCH AND FIND IT AMONG YOURSELF 
+
+
+
+?? Give extra tips:
+for nuclei (creating custom nuclei)
+?? build automation for recon
+??
+?? tips for bypassing 403 portals
+?? final tip for building recon methodology
+
+?? bug bounty reality ??
+
+SELF RESEARCH AND PRACTICE PORTSWIGGER LABS.. (FIRST BUILD KNOWLEDGE.. THEORY+ PRACTICAL THEN HUNT ON BUGS)
+
+
+
+---------------------------------------------------------------
+
+
+
+GOOGLE DORK : GOOGLE HACKIG DATABASE 
+https://www.exploit-db.com/google-hacking-database
+
+
+practice and get knowledge,SEARCH FOR POC VIDEOS, READ MEDIUM REPORTS,
